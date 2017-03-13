@@ -1,0 +1,14 @@
+_
+obj
+*.deb
+.theos/
+.DS_Store
+*.dylib
+*.app
+*.ipa
+RevealServer.framework
+
+#fastlane
+fastlane/README.md
+fastlane/report.xml
+fastlane/test_output/
