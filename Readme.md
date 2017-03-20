@@ -24,6 +24,8 @@ Change the value of `THEOS_DEVICE_IP` to your jailbreak device's ip in the `Make
 make package install
 ```
 
+**Note:** To make sure this tweak work correctly. Before install this tweak, change the command `codesign` in the `before-package` section of `Makefile`,use your develop certificate. If you dont have a certificate, you can remove the three command lines which begin with `lipo` and `codesign`.
+
 ## How to Use
 Open 'Settings > CCRevealLoader > Enabled Applications' and toggle the application or applications that you want to debug to on.
 
