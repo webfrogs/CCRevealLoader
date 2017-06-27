@@ -1,7 +1,7 @@
 Package: com.nswebfrog.revealloader
 Name: CCRevealLoader
 Depends: mobilesubstrate, preferenceloader, applist
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Description: Dynamically loads Reveal server framework into iOS applications.
  CCRevealLoader dynamically loads RevealServer.framework (Reveal.app version 7 support) into iOS apps
